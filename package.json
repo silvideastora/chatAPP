@@ -1,0 +1,32 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "a realtime chat",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon ./server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silvideastora/chatAPP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/silvideastora/chatAPP/issues"
+  },
+  "homepage": "https://github.com/silvideastora/chatAPP#readme",
+  "dependencies": {
+    "express": "4.18.2",
+    "morgan": "1.10.0",
+    "socket.io": "4.7.2",
+    "@libsql/client": "^0.3.6",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
